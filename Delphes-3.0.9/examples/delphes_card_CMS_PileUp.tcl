@@ -270,6 +270,8 @@ module Calorimeter Calorimeter {
   add EnergyFraction {11} {1.0 0.0}
   add EnergyFraction {22} {1.0 0.0}
   add EnergyFraction {111} {1.0 0.0}
+  # energy fractions for DarkMatter
+  add EnergyFraction {18} {0.0 0.0}
   # energy fractions for muon, neutrinos and neutralinos
   add EnergyFraction {12} {0.0 0.0}
   add EnergyFraction {13} {0.0 0.0}

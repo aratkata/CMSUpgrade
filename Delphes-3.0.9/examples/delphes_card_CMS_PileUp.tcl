@@ -283,6 +283,8 @@ module Calorimeter Calorimeter {
   # energy fractions for K0short and Lambda
   add EnergyFraction {310} {0.3 0.7}
   add EnergyFraction {3122} {0.3 0.7}
+  # energy fractions for Dark Matter
+  add EnergyFraction {18} {0.0 0.0}
 
   # set ECalResolutionFormula {resolution formula as a function of eta and energy}
   set ECalResolutionFormula {                  (abs(eta) <= 3.0) * sqrt(energy^2*0.005^2 + energy*0.05^2 + 0.25^2) + \
